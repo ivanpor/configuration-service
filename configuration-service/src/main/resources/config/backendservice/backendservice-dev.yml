@@ -1,0 +1,13 @@
+test:
+   property: "I AM IN THE DEV"
+spring:
+   datasource:
+      driverClassName: org.h2.Driver
+      username: sa
+      password:
+   jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      
+backend:
+   endpoints: 
+      maestroarticulos: "http://localhost:8080/services/articuloWS"
